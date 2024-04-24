@@ -1,4 +1,25 @@
-#desafio 1
+# Desafio 1 de programacion en Desarollo de Software
+
+"""
+#1
+desafio_1 = str(input("ingrese numero: "))
+n = len(desafio_1)
+aux1 = []
+for i in range(n):
+    aux1.append(desafio_1[(n-1)-i])
+print("".join(aux1))
+print(desafio_1)
+"""
+
+"""#2
+hora = int(input("Ingrese Hora actual: "))
+horas_futuras = int(input("Ingrese Horas:"))
+hora += horas_futuras
+actual = hora % 12
+if actual == 0:
+    print("En ",horas_futuras," el reloj marcara las", 12)
+else:
+    print("En",horas_futuras,"el reloj marcara las", actual)"""
 
 """
 #3 numeros primos
@@ -145,7 +166,25 @@ while puntosA != 3 and puntosB != 3:
         print("B es el ganador")
 '''
 
-#12
+#12 Torneo de Tenis.
+tenistas = []
+for i in range (8):
+    tenistas.append(input("Jugador "+ str(1+i)+": "))
 
+print(tenistas)
+ronda = 0
+ganadores=[]
+i = 0
+while i == 0: 
+    ronda+=1
+    print("Ronda", ronda)
+    print(tenistas[i], tenistas[i+1])
+    partida1 = input("a." + str(tenistas[i] + " - b." + str(tenistas[i+1])))
+    if partida1 == "a":
+        ganadores.append(tenistas[i])
+    else:
+        ganadores.append(tenistas[i+1])
+
+    
 
 

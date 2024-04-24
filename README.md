@@ -1,2 +1,3 @@
 # programacion1_desafio1
-desafios de programacion 1 en desaroolo de software ISPC
+Desafios de programacion 1 en desarrollo de software ISPC
+    -serie de problemas para empezar a tener contacto con el lenguaje python
